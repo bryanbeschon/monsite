@@ -1,0 +1,17 @@
+{% for user in users %}
+  <tr>
+    <td style="color:rgb(0,0,170)">{{ user.username }}</td>
+    <td style="color:rgb(0,0,170)">{{ user.first_name }}</td>
+    <td style="color:rgb(0,0,170)">{{ user.last_name }}</td>
+    <td style="color:rgb(0,0,170)">{{ user.email }}</td>
+
+    <td style="width: 250px; padding-right: 100px">
+      <button type="button"
+              class="btn btn-warning btn-sm js-update-user" data-toggle="modal"
+              id="mymodal" data-target="#modal-user"
+              data-url="{% url 'siteweb:userupdate' user.id%}">
+        <span class="glyphicon glyphicon-pencil"></span> Mettre à jour les informations
+      </button>
+    </td>
+  </tr>
+{% endfor %}
