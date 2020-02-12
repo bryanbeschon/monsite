@@ -12,23 +12,24 @@ Principe :
 
 Exemples d'utilisateurs existants :
 - Utilisateur 1
-Nom d'utilisateur : user1
 
-Prénom : userprénom
+  Nom d'utilisateur : user1
 
-Nom : usernom
+  Prénom : userprénom
 
-Adresse mail : user1@gmail.com
+  Nom : usernom
 
-Mot de passe : user1
+  Adresse mail : user1@gmail.com
+
+  Mot de passe : user1
 
 - Utilisateur 2
-Nom d'utilisateur : user2
+  Nom d'utilisateur : user2
 
-Prénom : user2prenom
+  Prénom : user2prenom
 
-Nom : user2nom
+  Nom : user2nom
 
-Adresse mail : user2@gmail.com
+  Adresse mail : user2@gmail.com
 
-Mot de passe : user2
+  Mot de passe : user2
